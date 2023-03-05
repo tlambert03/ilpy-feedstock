@@ -10,3 +10,9 @@ channels:
   # channel to push to and the second element is the label on that channel
   targets:
     - [funkelab, main]
+provider:
+  linux_64: circle
+  osx_64: circle
+  win_64: None
+  linux_ppc64le: None
+  linux_aarch64: None
