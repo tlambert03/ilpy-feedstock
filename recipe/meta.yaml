@@ -10,17 +10,20 @@ build:
   number: 0
 
 requirements:
- build:
-   - {{ compiler('cxx') }}
- host:
-   - cython
-   - python {{python}}
-   - scip
-   - gurobi
- run:
-   - python {{python}}
-   - scip
-   - gurobi
+  build:
+    - {{ compiler("cxx") }}
+    - cross-python_{{ target_platform }}    # [build_platform != target_platform]
+    - python                                # [build_platform != target_platform]
+    - cython                                # [build_platform != target_platform]
+  host:
+    - python {{python}}
+    - cython
+    - scip
+    - gurobi
+  run:
+    - python {{python}}
+    - scip
+    - gurobi
 
 test: 
   imports:
