@@ -17,6 +17,7 @@ requirements:
     - cython                                # [build_platform != target_platform]
   host:
     - python {{python}}
+    - pip
     - cython
     - scip
     - gurobi
