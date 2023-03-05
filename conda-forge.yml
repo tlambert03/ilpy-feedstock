@@ -16,3 +16,6 @@ provider:
   win_64: None
   linux_ppc64le: None
   linux_aarch64: None
+
+circle:
+  upload_packages: False
