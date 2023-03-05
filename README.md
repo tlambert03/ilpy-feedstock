@@ -20,12 +20,86 @@ Current build status
         <img alt="Linux" src="https://img.shields.io/circleci/project/github/tlambert03/ilpy-feedstock/main.svg?label=Linux">
       </a>
     </td>
-  </tr><tr>
-    <td>Travis</td>
+  </tr>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://app.travis-ci.com/tlambert03/ilpy-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/tlambert03/ilpy-feedstock/main.svg?label=Linux">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+            <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.11</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.11</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.11</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/tlambert03/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/tlambert03/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
