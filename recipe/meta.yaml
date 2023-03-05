@@ -1,14 +1,13 @@
 package:
   name: ilpy
-  version: "0.2"
+  version: "0.2.1"
 
 source:
-  # git_url: https://github.com/funkelab/ilpy
-  # git_rev: bb6df2e90543ad500c32bcbab6991f959a4a6f71
-  path: ..
+  git_url: https://github.com/tlambert03/ilpy
+  git_rev: f749d9bc26f358fc6a99a220d4f39a4e803a8edf
 
 build:
-  number: 1
+  number: 0
 
 requirements:
  build:
