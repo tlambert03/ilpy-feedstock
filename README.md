@@ -17,7 +17,14 @@ Current build status
     <td>CircleCI</td>
     <td>
       <a href="https://circleci.com/gh/tlambert03/ilpy-feedstock">
-        <img alt="Linux,OSX,osx_arm64" src="https://img.shields.io/circleci/project/github/tlambert03/ilpy-feedstock/main.svg?label=Linux,OSX,osx_arm64">
+        <img alt="Linux" src="https://img.shields.io/circleci/project/github/tlambert03/ilpy-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/tlambert03/ilpy-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/tlambert03/ilpy-feedstock/main.svg?label=Linux">
       </a>
     </td>
   </tr>
