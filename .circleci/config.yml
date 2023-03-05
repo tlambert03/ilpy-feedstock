@@ -11,7 +11,7 @@ jobs:
       - image: ubuntu-2004:current
     environment:
       - CONFIG: "linux_64_python3.10"
-      - UPLOAD_PACKAGES: "True"
+      - UPLOAD_PACKAGES: "False"
         DOCKER_IMAGE: "quay.io/condaforge/linux-anvil-cos7-x86_64"
     steps:
       - checkout
@@ -37,7 +37,7 @@ jobs:
       - image: ubuntu-2004:current
     environment:
       - CONFIG: "linux_64_python3.11"
-      - UPLOAD_PACKAGES: "True"
+      - UPLOAD_PACKAGES: "False"
         DOCKER_IMAGE: "quay.io/condaforge/linux-anvil-cos7-x86_64"
     steps:
       - checkout
@@ -63,7 +63,7 @@ jobs:
       - image: ubuntu-2004:current
     environment:
       - CONFIG: "linux_64_python3.9"
-      - UPLOAD_PACKAGES: "True"
+      - UPLOAD_PACKAGES: "False"
         DOCKER_IMAGE: "quay.io/condaforge/linux-anvil-cos7-x86_64"
     steps:
       - checkout
@@ -89,7 +89,7 @@ jobs:
       xcode: "13.0.0"
     environment:
       - CONFIG: "osx_64_python3.10"
-      - UPLOAD_PACKAGES: "True"
+      - UPLOAD_PACKAGES: "False"
     steps:
       - checkout
       - run:
@@ -114,7 +114,7 @@ jobs:
       xcode: "13.0.0"
     environment:
       - CONFIG: "osx_64_python3.11"
-      - UPLOAD_PACKAGES: "True"
+      - UPLOAD_PACKAGES: "False"
     steps:
       - checkout
       - run:
@@ -139,7 +139,7 @@ jobs:
       xcode: "13.0.0"
     environment:
       - CONFIG: "osx_64_python3.9"
-      - UPLOAD_PACKAGES: "True"
+      - UPLOAD_PACKAGES: "False"
     steps:
       - checkout
       - run:
