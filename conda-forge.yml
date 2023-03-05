@@ -10,12 +10,18 @@ channels:
   # channel to push to and the second element is the label on that channel
   targets:
     - [funkelab, main]
+
+# https://conda-forge.org/docs/maintainer/conda_forge_yml.html#provider
 provider:
   linux_64: circle
   osx_64: circle
   win_64: None
   linux_ppc64le: None
   linux_aarch64: None
+
+build_platform:
+  osx_arm64: osx_64
+test_on_native_only: true
 
 circle:
   upload_packages: False

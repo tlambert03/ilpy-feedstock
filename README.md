@@ -15,7 +15,7 @@ Current build status
     <td>CircleCI</td>
     <td>
       <a href="https://circleci.com/gh/tlambert03/ilpy-feedstock">
-        <img alt="Linux,OSX" src="https://img.shields.io/circleci/project/github/tlambert03/ilpy-feedstock/main.svg?label=Linux,OSX">
+        <img alt="Linux,OSX,osx_arm64" src="https://img.shields.io/circleci/project/github/tlambert03/ilpy-feedstock/main.svg?label=Linux,OSX,osx_arm64">
       </a>
     </td>
   </tr>
