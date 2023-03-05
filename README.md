@@ -7,6 +7,8 @@ Home: https://github.com/funkelab/ilpy
 
 Package license: MIT
 
+Summary: Unified python wrappers for popular ILP solvers
+
 Current build status
 ====================
 
@@ -103,4 +105,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@funkey](https://github.com/funkey/)
+* [@tlambert03](https://github.com/tlambert03/)
 
