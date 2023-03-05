@@ -8,6 +8,7 @@ source:
 
 build:
   number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
@@ -32,4 +33,11 @@ test:
 
 about:
   home: https://github.com/funkelab/ilpy
+  summary: Unified python wrappers for popular ILP solvers
   license: MIT
+  license_family: MIT
+
+extra:
+  recipe-maintainers:
+    - tlambert03
+    - funkey
