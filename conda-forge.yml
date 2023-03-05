@@ -14,7 +14,7 @@ channels:
 # https://conda-forge.org/docs/maintainer/conda_forge_yml.html#provider
 provider:
   linux_64: circle
-  osx_64: circle
+  osx_64: travis
   win_64: None
   linux_ppc64le: None
   linux_aarch64: None
