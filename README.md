@@ -1,7 +1,7 @@
 About ilpy-feedstock
 ====================
 
-Feedstock license: [BSD-3-Clause](https://github.com/tlambert03/ilpy-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/funkelab/ilpy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/funkelab/ilpy
 
@@ -83,7 +83,7 @@ opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `funkelab` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `funkelab` channel.
-Note that all branches in the tlambert03/ilpy-feedstock are
+Note that all branches in the funkelab/ilpy-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
