@@ -48,6 +48,27 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_python3.10</td>
+              <td>
+                <a href="https://dev.azure.com/talleylambert/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/talleylambert/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_python3.11</td>
+              <td>
+                <a href="https://dev.azure.com/talleylambert/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/talleylambert/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/talleylambert/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/talleylambert/feedstock-builds/_apis/build/status/ilpy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_python3.10</td>
               <td>
                 <a href="https://dev.azure.com/talleylambert/feedstock-builds/_build/latest?definitionId=&branchName=main">
