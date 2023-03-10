@@ -1,10 +1,13 @@
+{% set name = "ilpy" %}
+{% set version = "0.2.1" %}
+
 package:
-  name: ilpy
-  version: "0.2.1"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  git_url: https://github.com/funkelab/ilpy/
-  git_rev: 0a037d648f1a845ebbbeb5c9d9d6469f03225ccd
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 798b8f32b91306e2ef8b66186e8fc8d519d9f234ba81428ae08184ee97db78fb
 
 build:
   number: 0
