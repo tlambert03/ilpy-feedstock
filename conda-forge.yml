@@ -14,9 +14,9 @@ channels:
 
 # https://conda-forge.org/docs/maintainer/conda_forge_yml.html#provider
 provider:
-  linux_64: azure
-  osx_64: azure
-  win_64: azure
+  linux_64: github_actions
+  osx_64: github_actions
+  win_64: github_actions
   linux_ppc64le: None
   linux_aarch64: None
 
@@ -25,7 +25,7 @@ build_platform:
 
 test_on_native_only: true
 
-azure:
+github_actions:
   upload_packages: False  # for now
-  user_or_org: talleylambert
-  project_name: feedstock-builds
+  # user_or_org: talleylambert
+  # project_name: feedstock-builds
