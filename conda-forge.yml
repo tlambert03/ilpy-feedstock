@@ -1,5 +1,6 @@
 github:                         
-  user_or_org: tlambert03
+  user_or_org: funkelab
+
 channels:
   # sources selects the channels to pull packages from, in order.
   sources:
@@ -13,9 +14,9 @@ channels:
 
 # https://conda-forge.org/docs/maintainer/conda_forge_yml.html#provider
 provider:
-  linux_64: circle
+  linux_64: azure
   osx_64: azure
-  win_64: None
+  win_64: azure
   linux_ppc64le: None
   linux_aarch64: None
 
@@ -23,5 +24,7 @@ build_platform:
   osx_arm64: osx_64
 test_on_native_only: true
 
-circle:
-  upload_packages: False
+azure:
+  upload_packages: False  # for now
+  user_or_org: talleylambert
+  project_name: feedstock-builds

@@ -3,8 +3,8 @@ package:
   version: "0.2.1"
 
 source:
-  git_url: https://github.com/tlambert03/ilpy
-  git_rev: f749d9bc26f358fc6a99a220d4f39a4e803a8edf
+  git_url: https://github.com/funkelab/ilpy
+  git_rev: HEAD
 
 build:
   number: 0
