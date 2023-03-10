@@ -4,7 +4,7 @@ package:
 
 source:
   git_url: https://github.com/funkelab/ilpy/
-  git_rev: HEAD
+  git_rev: 0a037d648f1a845ebbbeb5c9d9d6469f03225ccd
 
 build:
   number: 0

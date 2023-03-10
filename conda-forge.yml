@@ -1,5 +1,5 @@
 github:                         
-  user_or_org: funkelab
+  user_or_org: tlambert03
 
 channels:
   # sources selects the channels to pull packages from, in order.
