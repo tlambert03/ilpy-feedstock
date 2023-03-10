@@ -1,5 +1,5 @@
 github:                         
-  user_or_org: tlambert03
+  user_or_org: funkelab
 
 channels:
   # sources selects the channels to pull packages from, in order.
@@ -26,6 +26,4 @@ build_platform:
 test_on_native_only: true
 
 github_actions:
-  upload_packages: False  # for now
-  # user_or_org: talleylambert
-  # project_name: feedstock-builds
+  upload_packages: True
