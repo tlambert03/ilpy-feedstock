@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 channel_sources:
-- gurobi,conda-forge,defaults
+- gurobi,conda-forge
 channel_targets:
 - funkelab main
 cxx_compiler:

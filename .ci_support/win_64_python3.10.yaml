@@ -1,5 +1,5 @@
 channel_sources:
-- gurobi,conda-forge,defaults
+- gurobi,conda-forge
 channel_targets:
 - funkelab main
 cxx_compiler:
