@@ -1,5 +1,5 @@
 {% set name = "ilpy" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 798b8f32b91306e2ef8b66186e8fc8d519d9f234ba81428ae08184ee97db78fb
+  sha256: b31396b3aa45bee7724c26bc24257430ef79878b758de8c6017a9f6f8057efe1
 
 build:
   number: 0
