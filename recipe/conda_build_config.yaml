@@ -5,4 +5,4 @@ python:
 channel_targets:
   - funkelab main
 channel_sources:
-- gurobi,conda-forge,defaults
+  - gurobi,conda-forge,defaults
