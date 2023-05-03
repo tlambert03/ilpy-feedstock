@@ -1,5 +1,5 @@
 {% set name = "ilpy" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3e2bc15705feb6e263e55c1343b34e0d780d681e6d76fdfa411a2893766f6ca0
+  sha256: b549ef14fef75ce8b3c3697bdb1b1d769860a8f725160fae002ca8948faf1fcd
 
 build:
   number: 0
@@ -33,12 +33,17 @@ requirements:
 test: 
   imports:
     - ilpy
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/funkelab/ilpy
   summary: Unified python wrappers for popular ILP solvers
   license: MIT
   license_family: MIT
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
