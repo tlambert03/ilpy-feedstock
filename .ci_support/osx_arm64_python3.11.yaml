@@ -18,11 +18,3 @@ python:
 - '3.11'
 target_platform:
 - osx-arm64
-
-CONDA_BUILD_SYSROOT:
-- /Users/talley/Downloads/MacOSX11.0.sdk
-
-
-CONDA_BUILD_SYSROOT:
-- /Users/talley/Downloads/MacOSX11.0.sdk
-
