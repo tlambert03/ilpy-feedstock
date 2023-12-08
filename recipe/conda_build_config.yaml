@@ -2,6 +2,14 @@ python:
   - 3.9
   - 3.10
   - 3.11
+python_impl:
+  - cpython
+  - cpython
+  - cpython
+numpy:
+  - 1.22
+  - 1.22
+  - 1.22
 channel_targets:
   - funkelab main
 channel_sources:
