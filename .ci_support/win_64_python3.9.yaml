@@ -1,3 +1,5 @@
+c_stdlib:
+- vs
 channel_sources:
 - gurobi,conda-forge,defaults
 channel_targets:
