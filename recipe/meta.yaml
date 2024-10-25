@@ -1,5 +1,5 @@
 {% set name = "ilpy" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5cee3c0e5fe6e48cbb4686a8d8362b5e5fa407ab242c480b3981beb7b3429f0c
+  sha256: e56988abe021398ac856ebdc669981028241eb5ecd6427eae315dbf96e2904f7
 
 build:
   number: 1
@@ -19,6 +19,7 @@ requirements:
     - cross-python_{{ target_platform }}    # [build_platform != target_platform]
     - python                                # [build_platform != target_platform]
     - cython =3.0.9                         # [build_platform != target_platform]
+    - setuptools ==71.1.0
   host:
     - python {{python}}
     - pip
