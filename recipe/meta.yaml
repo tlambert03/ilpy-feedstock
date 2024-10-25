@@ -19,7 +19,7 @@ requirements:
     - cross-python_{{ target_platform }}    # [build_platform != target_platform]
     - python                                # [build_platform != target_platform]
     - cython =3.0.9                         # [build_platform != target_platform]
-    - setuptools ==71.1.0
+    - setuptools ==71
   host:
     - python {{python}}
     - pip
