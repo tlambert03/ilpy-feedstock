@@ -10,7 +10,7 @@ source:
   sha256: e56988abe021398ac856ebdc669981028241eb5ecd6427eae315dbf96e2904f7
 
 build:
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -25,11 +25,13 @@ requirements:
     - pip
     - cython =3.0.9
     - scip =9.1.0
-    - gurobi >=10.0,<11
+    - gurobi >=10.0,<11  # [linux]
+    - gurobi >=10.0,<=11.0.2  # [not linux]
   run:
     - python {{python}}
     - scip =9.1.0
-    - gurobi >=10.0,<11
+    - gurobi >=10.0,<11  # [linux]
+    - gurobi >=10.0,<=11.0.2  # [not linux]
 
 test: 
   imports:
