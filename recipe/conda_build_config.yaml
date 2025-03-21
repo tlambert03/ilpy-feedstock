@@ -2,17 +2,22 @@ python:
   - 3.9
   - 3.10
   - 3.11
-  - 3.12
+  - 3.12  # [not linux]
 python_impl:
   - cpython
   - cpython
   - cpython
-  - cpython
+  - cpython  # [not linux]
 numpy:
   - 1.22
   - 1.22
   - 1.22
-  - 1.22
+  - 1.22  # [not linux]
+is_python_min:
+  - true
+  - false
+  - false
+  - false # [not linux]
 channel_targets:
   - funkelab main
 channel_sources:
